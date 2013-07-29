@@ -79,6 +79,11 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ./.brew
 ```
 
+Install Homebrew:
+```bash
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+```
+
 ## Feedback
 
 Suggestions/improvements
