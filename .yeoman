@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Ask for sudo password up front
+sudo -v
+
+# Install Yeoman
+sudo npm install -g yo
+
+# Install generators
+sudo npm install -g generator-angular
