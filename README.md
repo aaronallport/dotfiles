@@ -71,11 +71,19 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ./.osx
 ```
 
+### My install dependencies
+
+I've started a file containing any install dependencies that should be run along with any initial setup files. This contains the install command for Homebrew and other utilities I depend on:
+
+```bash
+./.dependencies
+```
+
 ### Install Homebrew formulae
 
 When setting up a new Mac, you may want to install some common [Homebrew](http://brew.sh/) formulae (after installing Homebrew, of course):
 
-Install Homebrew:
+Install Homebrew (if not installed via the .dependencies file):
 ```bash
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 ```
