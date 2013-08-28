@@ -7,3 +7,6 @@ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 # Install syntax-highlighting for cat (use c <file>)
 sudo easy_install Pygments
+
+# Install localtunnel
+sudo gem install localtunnel
