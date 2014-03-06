@@ -10,3 +10,6 @@ sudo easy_install Pygments
 
 # Install localtunnel
 sudo gem install localtunnel
+
+# Jekyll (maybe pull out all ruby gems to a seperate file if they grow too large)
+sudo gem install jekyll
