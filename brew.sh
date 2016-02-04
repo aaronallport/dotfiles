@@ -73,6 +73,7 @@ brew install nmap
 brew install pngcheck
 brew install socat
 brew install sqlmap
+brew install testssl
 brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
